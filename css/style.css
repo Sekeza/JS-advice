@@ -31,10 +31,11 @@ body {
     background: #fff;
     margin: auto;
     padding: 0 2rem;
-    max-width: 80%;
+    width: 50rem;
+    max-width: 60%;
     height: 35rem;
     border-radius: 0.2rem;
-    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 #container #message {
@@ -43,7 +44,6 @@ body {
     line-height: 2.5rem;
     margin-bottom: 4rem;
     text-align: center;
-    /* width: 10rem; */
     height: 10rem;
 }
 
@@ -66,51 +66,13 @@ body {
 
 @media (min-width:365px) {
     #container {
-        width: 30rem;
+        width: 50%;
         height: 30rem;
     }
 
     #container #message {
         font-size: 2.3rem;
         margin-bottom: 2.5rem;
-    }
-
-    #container #btn {
-        border-radius: 0.25rem;
-        font-size: 1.7rem;
-        margin-bottom: -4rem;
-    }
-}
-
-@media (min-width:280px) and (max-width:360px) {
-    #container {
-        width: 35rem;
-        height: 30rem;
-    }
-
-    #container #message {
-        font-size: 2rem;
-        line-height: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    #container #btn {
-        border-radius: 0.25rem;
-        font-size: 1.7rem;
-        margin-bottom: -3.5rem;
-    }
-}
-
-@media (min-width:768px) and (max-width:1280px) {
-    #container {
-        width: 50%;
-        height: 35rem;
-    }
-
-    #container #message {
-        font-size: 2.5rem;
-        line-height: 2rem;
-        margin-bottom: 3rem;
     }
 
     #container #btn {
