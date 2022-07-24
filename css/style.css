@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/family.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background: #fff;
+    margin: auto;
+    padding: 0 2rem;
+    max-width: 80%;
+    height: 35rem;
+    border-radius: 0.2rem;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+#container #message {
+    font-size: 2rem;
+    color: #222;
+    line-height: 2.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    /* width: 10rem; */
+    height: 10rem;
+}
+
+#container #btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    background: #3882fb;
+    color: #f9f9f9;
+    border-radius: 0.35rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-bottom: -7rem;
+
+}
+
+#container #btn:hover {
+    background: #009857;
+}
+
+@media (min-width:365px) {
+    #container {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    #container #message {
+        font-size: 2.3rem;
+        margin-bottom: 2.5rem;
+    }
+
+    #container #btn {
+        border-radius: 0.25rem;
+        font-size: 1.7rem;
+        margin-bottom: -4rem;
+    }
+}
+
+@media (min-width:280px) and (max-width:360px) {
+    #container {
+        width: 35rem;
+        height: 30rem;
+    }
+
+    #container #message {
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #container #btn {
+        border-radius: 0.25rem;
+        font-size: 1.7rem;
+        margin-bottom: -3.5rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:1280px) {
+    #container {
+        width: 50%;
+        height: 35rem;
+    }
+
+    #container #message {
+        font-size: 2.5rem;
+        line-height: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    #container #btn {
+        border-radius: 0.25rem;
+        font-size: 1.7rem;
+        margin-bottom: -4rem;
+    }
+}
