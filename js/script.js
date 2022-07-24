@@ -1,7 +1,7 @@
  
 // Select html element
-const advice = document.querySelector(".message");
-const btnAdvice = document.querySelector(".btn");
+const advice = document.querySelector("#message");
+const btnAdvice = document.querySelector("#btn");
 
 
 // Get data from an api
